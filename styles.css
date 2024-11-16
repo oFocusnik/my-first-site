@@ -43,6 +43,12 @@ img {
     box-sizing: border-box;
 }
 
+button {
+    all: unset; /* Сбрасывает все стили */
+    display: inline-block; /* Устанавливает display для кнопки */
+    cursor: pointer; /* Устанавливает курсор при наведении */
+}
+
 @font-face {
     font-family: "Reformagroteskmediumc";
     src: url("https://fontsforyou.com/fonts/r/Reformagroteskmediumc.otf");
@@ -60,6 +66,7 @@ img {
     font-weight: 700;
     font-style: normal;
   }
+
 
 
 
@@ -211,10 +218,6 @@ h1{
     text-align: center;
     z-index: 1;
     top: 12px;
-
-}
-
-.column-2{
 
 }
 
@@ -376,4 +379,235 @@ h1{
     gap: 0px;
     opacity: 0px;
 
+}
+
+.advantages{
+    position: absolute;
+    width: 1296px;
+    height: 663px;
+    top: 2705px;
+    left: 312px;
+    gap: 40px;
+    opacity: 0px;
+
+}
+
+.advantages h2{
+    font-family: "Reformagroteskmediumc";  
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44.8px;
+    letter-spacing: 5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+
+}
+
+.advantages p{
+    position: absolute;
+    font-family: "Reformagroteskmediumc";  
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.8px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+
+.materials img{
+    position: absolute;
+    width: 56.47px;
+    height: 70px;
+    left: 7px;
+
+}
+
+.materials h2{
+    position: absolute;
+    font-family: "Reformagroteskmediumc"; 
+    width: 426px;
+    height: 43px;
+    top: 14px;
+    left: 100px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.materials p{
+    position: absolute;
+    width: 526px;
+    height: 58px;
+    top: 100px;
+}
+
+.group-3{
+    position: absolute;
+    top: 198px;
+    left: 190px;
+}
+
+.professionals img{
+    position: absolute;
+    width: 70px;
+    height: 45.19px;
+    top: 265.14px;
+}
+
+.professionals h2{
+    position: absolute;
+    width: 426px;
+    height: 43px;
+    top: 266.28px;
+    left: 100px;
+}
+
+.professionals p{
+    position: absolute;
+    width: 526px;
+    height: 87px;
+    top: 352.28px;
+
+}
+
+.group-4{
+    position: absolute;
+    top: 478px;
+    left: 190px;
+}
+
+.guarantee img{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 533.57px;
+}
+
+.guarantee h2{
+    position: absolute;
+    width: 426px;
+    height: 43px;
+    top: 547.43px;
+    left: 100px;
+    letter-spacing: 5%;
+}
+
+.guarantee p{
+    position: absolute;
+    width: 526px;
+    height: 29px;
+    top: 633.43px;
+}
+
+
+.advantagesImage {
+    position: absolute;
+    width: 636px;
+    height: 550px;
+    left: 660px;
+}
+
+.advantagesLeft{
+    position: absolute; 
+    width: 70.71px;
+    height: 70.71px;
+    top: 590px;
+    left: 658px;
+}
+
+.advantagesRight{
+    position: absolute;
+    width: 70.71px;
+    height: 70.71px;
+    top: 590px;
+    left: 1224px;
+   
+}
+
+.OurServices h2{
+    position: absolute;
+    width: 636px;
+    height: 73px;
+    top: 3547px;
+    left: 642px;
+    font-family: "Reformagroteskmediumc"; 
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 72.8px;
+    letter-spacing: 8px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.OurServices img{
+    position: absolute;
+    width: 146.36px;
+    height: 14.14px;
+    top: 3660px;
+    left: 887px;
+}
+
+.pasting{
+    position: absolute;
+    width: Hug (181px)px;
+    height: Hug (75px)px;
+    top: 3735px;
+    left: 735px;
+    padding: 20px 40px 10px 40px;
+    gap: 10px;
+    opacity: 0px;
+    border: 2px solid white;
+    font-family: "Reformagroteskmediumc"; 
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44.8px;
+    letter-spacing: 4.7px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-color: rgb(129, 18, 18);
+
+}
+
+.detailing{
+    position: absolute;
+    width: Hug (181px)px;
+    height: Hug (75px)px;
+    top: 3735px;
+    left: 976px;
+    padding: 20px 40px 10px 40px;
+    gap: 10px;
+    opacity: 0px;
+    border: 2px solid white;
+    font-family: "Reformagroteskmediumc"; 
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44.8px;
+    letter-spacing: 4.7px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+
+}
+
+
+.OurServices section{
+    width: 306px;
+    height: 428px;
+    border:1px solid white;
+    opacity: 0px;
+}
+
+.services1{
+    position: absolute;
+    width: 790px;
+    height: 112px;
+    border: 1px solid white;
 }
