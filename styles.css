@@ -1,0 +1,379 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    
+}
+
+body {
+    height: 100%;
+    line-height: 1.5;
+    background-color: black; /* Устанавливаем фон черным */
+    color: white; /* Устанавливаем цвет текста белым для контраста */
+}
+
+/* Дополнительные стили для сброса */
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* Сброс стилей */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Reformagroteskmediumc";
+    src: url("https://fontsforyou.com/fonts/r/Reformagroteskmediumc.otf");
+}
+.your-style {
+    font-family: "Reformagroteskmediumc";
+}
+
+@font-face {
+    font-family: 'Reforma Grotesk';
+    src: local('Reforma Grotesk Bold'), local('Reforma-Grotesk-Bold'),
+        url('ReformaGroteskBold.woff2') format('woff2'),
+        url('ReformaGroteskBold.woff') format('woff'),
+        url('ReformaGroteskBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+
+
+
+  header{
+    background-color: black; /* Устанавливаем фон черным */
+    color: white; /* Устанавливаем цвет текста белым для контраста */
+  }
+
+/* Установка размеров контейнера */
+.container {
+    width: 1920px;
+    height: 1080px;
+    margin: 0 auto; /* Центрирование контейнера */
+    
+    display: grid;
+
+}
+
+.background{
+    width: 1920px;
+}
+
+/* Дополнительные стили */
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+.Navigation {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем отступы */
+    position: absolute;
+    top: 40px;
+    left: 312px;
+    gap: 40px;
+    font-family: "Reformagroteskmediumc";
+    font-size: 24px;
+    line-height: 28.8px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+    color: #ffffff;
+
+}
+
+.Navigation li {
+    display: inline; /* Или используйте inline-block для большей 
+    гибкости */
+    margin-right: 36px; /* Отступ между элементами */
+    color: #f0f0f0;
+
+}
+
+.logo{
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    top: 42px;
+    left: 1558px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+h1{
+    color: red;
+    position: absolute;width: 483px;
+    height: 188px;
+    top: 230px;
+    left: 719px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: 'Reforma Grotesk';
+    font-size: 150px;
+    font-weight: 700;
+    line-height: 187.5px;
+    text-align: center;
+     
+}
+
+.group2{
+    position: absolute;
+    width: 146.36px;
+    height: 14.14px;
+    top: 430.93px;
+    left: 887px;
+    padding: 0px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.Introduction{
+    position: absolute;
+    width: 437px;
+    height: 96px;
+    top: 486px;
+    left: 742px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Reformagroteskmediumc";
+    color: #f0f0f0;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: center;
+
+}
+.services{
+    position: absolute;
+    width: 119px;
+    height: 34px;
+    top: 637px;
+    left: 913px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Reformagroteskmediumc";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33.6px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    color: #f0f0f0;
+    letter-spacing: 3.5px;
+
+}
+.container-2 {
+    display: grid; /* Используем Grid */
+    position: absolute;
+    grid-template-columns: repeat(3, 1fr); /* Три равные колонки */
+    color: white;
+    top: 836px;
+    width: 100%;
+    font-family: "Reformagroteskmediumc";
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 25.2px;
+    letter-spacing: 0.2em;
+    text-align: center;
+
+}
+.text{
+    font-family: "Reformagroteskmediumc";
+    color: red;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.6px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    z-index: 1;
+    top: 12px;
+
+}
+
+.column-2{
+
+}
+
+
+.horizontal-line-1 {
+    position: absolute;
+    width: 1920px; /* Ширина 100% */
+    height: 1px; /* Высота линии */
+    background-color: white; /* Цвет линии */
+    position: absolute; /* Абсолютное позиционирование */
+    top: 784px; /* Центрируем по вертикали */
+}
+.horizontal-line-2 {
+    position: absolute;
+    width: 1920px; /* Ширина 100% */
+    height: 1px; /* Высота линии */
+    background-color: white; /* Цвет линии */
+    position: absolute; /* Абсолютное позиционирование */
+    top: 998px; /* Центрируем по вертикали */
+    z-index: 2;
+}
+
+.vertical-line {
+    width: 1px; /* Ширина линии */
+    height: 214px; /* Высота 100% */
+    background-color: white; /* Цвет линии */
+    position: absolute; /* Абсолютное позиционирование */
+    left: 638px; /* Центрируем по горизонтали */
+    top: -52px;
+}
+.vertical-line-2 {
+    width: 1px; /* Ширина линии */
+    height: 214px; /* Высота 100% */
+    background-color: white; /* Цвет линии */
+    position: absolute; /* Абсолютное позиционирование */
+    left: 1278px; /* Центрируем по горизонтали */
+    top: -52px;
+}
+
+.phone-1{
+    font-family: "Reformagroteskmediumc";
+    color: red;
+    font-size: 24px;
+    font-weight: 600px;
+    line-height: 33.6px;
+    letter-spacing: 5%;
+    text-align: center;
+    z-index: 1;
+    top: 12px;
+    
+
+}
+.achievements{
+    width: 1296px;
+    height: 745px;
+    top: 1180px;
+    left: 312px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+}
+.blog{
+    position: absolute;
+    width: 636px;
+    height: 146px;
+    top: 1180px;
+    left: 312px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 72.8px;
+    letter-spacing: 0.15em;
+    text-decoration-skip-ink: none;
+    font-family: "Reformagroteskmediumc";
+    color: #f0f0f0;
+}
+
+.group-2{
+    position: absolute;
+    width: 146.36px;
+    height: 14.14px;
+    top: 1366px;
+    left: 312px;
+    padding: 0px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.achievements p{
+    position: absolute;
+    width: 526px;
+    height: 116px;
+    top: 1441px;
+    left: 312px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.8px;
+    letter-spacing: 0.03em;
+    text-decoration-skip-ink: none;
+    font-family: "Reformagroteskmediumc";
+    color: #f0f0f0;
+
+
+}
+
+.left{
+    position: absolute;
+    width: 70.71px;
+    height: 70.71px;
+    top: 2280px;
+    left: 181px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+
+.firstImage{
+    position: absolute;
+    width: 416px;
+    height: 420px;
+    top: 2105px;
+    left: 312px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.secondImage{
+    position: absolute;
+    width: 416px;
+    height: 420px;
+    top: 2105px;
+    left: 752px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.thirtsImage{
+    position: absolute;
+    width: 416px;
+    height: 420px;
+    top: 2105px;
+    left: 1192px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.right{
+    position: absolute;
+    width: 70.71px;
+    height: 70.71px;
+    top: 2280px;
+    left: 1668.71px;
+    gap: 0px;
+    opacity: 0px;
+
+}
